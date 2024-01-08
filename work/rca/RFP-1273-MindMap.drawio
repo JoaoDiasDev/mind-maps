@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T14:34:57.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="g633sEALd62W5TSlMWDg" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T17:32:49.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="J-aEU_COg_NG7z-VtBxu" version="22.1.16" type="github">
   <diagram name="Page-1" id="DtpaLR8D9dlB2MSU8tAa">
-    <mxGraphModel>
+    <mxGraphModel dx="2049" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="D7YoySnKQrZuXdAx1Vqg-1" target="D7YoySnKQrZuXdAx1Vqg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-1" value="RFP-1273" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="D7YoySnKQrZuXdAx1Vqg-2" target="D7YoySnKQrZuXdAx1Vqg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-2" value="When doing input NFe with inactive products is giving an error" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="D7YoySnKQrZuXdAx1Vqg-6" target="D7YoySnKQrZuXdAx1Vqg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-6" value="Need to show the form to reactivate inactive products" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="D7YoySnKQrZuXdAx1Vqg-8" target="D7YoySnKQrZuXdAx1Vqg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-8" value="After products has been reactivated, the form to register the products appear" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D7YoySnKQrZuXdAx1Vqg-14" value="Them need to register the products and click on button to confirm and proceed to grid showing products from the NFe to confirm the input NFe" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-10" width="180" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
