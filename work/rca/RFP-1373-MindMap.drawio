@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T17:05:56.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="rNGTvvxReY_LgSWktVyA" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T19:47:44.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="f4V9g_0hmluYM0TdRHww" version="22.1.16" type="github">
   <diagram name="Page-1" id="ImxAfaow_QXyQBpGd_pP">
     <mxGraphModel dx="2261" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,11 +31,17 @@
         <mxCell id="QppGUUmqxxTd2zURWtjB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kvW7x50fLo4E_DqDTmqZ-8" target="QppGUUmqxxTd2zURWtjB-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QppGUUmqxxTd2zURWtjB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kvW7x50fLo4E_DqDTmqZ-8" target="QppGUUmqxxTd2zURWtjB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kvW7x50fLo4E_DqDTmqZ-8" value="Only merge delivery pre-sales if they have the same payment method" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-10" y="180" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QppGUUmqxxTd2zURWtjB-1" value="When logged as clerk and try to merge pre-sales, need to create a new pre-sales with all the items" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QppGUUmqxxTd2zURWtjB-5" value="On formPreVenda need has been implemented to type multiple pre-sales numbers like on &quot;81-80&quot; this way you can pick mutliple pre-sales directly from formPreVenda" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="180" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
