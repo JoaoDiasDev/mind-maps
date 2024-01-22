@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T13:43:11.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="PEnR_KYssXN_7Z-_r3Rl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T17:07:04.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="4kXjkMXPhA-_UBsQqNLc" version="22.1.16" type="github">
   <diagram name="Page-1" id="A7RNzn8fNVi4PgFjqo7G">
-    <mxGraphModel>
+    <mxGraphModel dx="2514" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7M1LDhsw4PaGlDumobP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-1" target="i7M1LDhsw4PaGlDumobP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-1" value="&lt;div&gt;&lt;font&gt;RFP-1202&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#182E3E;strokeColor=#FFFFFF;fontFamily=Lucida Console;labelBackgroundColor=none;fontColor=#FFFFFF;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-6" target="i7M1LDhsw4PaGlDumobP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-6" value="Integrate Telegram with Farma Pro" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-8" target="i7M1LDhsw4PaGlDumobP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-8" target="i7M1LDhsw4PaGlDumobP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-8" value="Make send some notifications to a group on telegram using telegram bot" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-10" value="To Configure you must inform group id and bot key in the correct format" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-14" target="i7M1LDhsw4PaGlDumobP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-14" target="i7M1LDhsw4PaGlDumobP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-14" target="i7M1LDhsw4PaGlDumobP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-14" value="Notification going to be sent asynchronously using telegram nuget for Csharp" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7M1LDhsw4PaGlDumobP-16" target="i7M1LDhsw4PaGlDumobP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-16" value="Send image after cashier has been closed to the group on telegram " style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-18" value="Send notification when a transfer has been made from one company to another" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-110" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-20" value="Verify products with negative markup and send notifications with them" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7M1LDhsw4PaGlDumobP-22" value="Send notification if an marked access to notify has been invoked." style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-150" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
